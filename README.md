@@ -1,3 +1,4 @@
+# MAHN
 This repository implement the proposed model MAHN in the paper of "Multiple Adaptive Hawkes Network for Popularity Prediction".
 
 # DataSet
@@ -14,6 +15,6 @@ password: ijp6
     cd preprocssing
     python generate_cascade
     #you can get the preprocessed dataset an the dirctory data
-### 2. train MAHN
+### 2. Train MAHN
     python train
     #you can get the learned parameters int the file *.pkl and the prediction results in the file *.txt.
